@@ -110,4 +110,4 @@ Tool for separating audio tracks into individual stems (vocals, instruments, dru
 
 ## Connect
 
-LinkedIn: [[your-linkedin-url]](https://www.linkedin.com/in/zayaanalimk/) · Email: zayalimk@gmail.com · Dubai, UAE
+LinkedIn: (https://www.linkedin.com/in/zayaanalimk/) · Email: zayalimk@gmail.com · Dubai, UAE
