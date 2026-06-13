@@ -85,3 +85,33 @@ Production-grade web application for separating audio tracks into 6 isolated ste
 ### Languages
 
 ![Java](https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=openjdk&logoColor=437291)
+![C](https://img.shields.io/badge/C-000000?style=for-the-badge&logo=c&logoColor=A8B9CC)
+
+---
+
+## Experience
+
+**Head of Operations — R13 Labs India Pvt Ltd** *(Sept 2025 – Present)*
+
+- First operations hire at a 12-person EdTech startup; designed operational infrastructure spanning communications, project management, CRM, finance visibility, and HR onboarding
+- Co-developed a 26-week company-wide Gantt roadmap spanning Technical, Marketing, Operations, and Finance workstreams
+
+**Software Engineer Intern — TechnoCit Software Solutions** *(Jun 2025 – Oct 2025)*
+
+- Developed an agentic banking chatbot and multi-country web scraping systems using n8n
+- Engineered RAG pipelines using vector embeddings and semantic similarity search
+
+---
+
+## Achievements
+
+- MIF Finalist — Mookerji Innovation Fund
+- AWS & GCP Cloud Credits Recipient
+- CorporateLiveWire Innovation & Excellence Award 2026 (UK)
+
+---
+
+## Connect
+
+LinkedIn: [zayaanalimk](https://www.linkedin.com/in/zayaanalimk/) · Email: zayalimk@gmail.com · Dubai, UAE
+
