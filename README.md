@@ -47,12 +47,13 @@ Token-level uncertainty quantification pipeline for detecting hallucinations in 
 
 ---
 
-### Audio Stem Splitter
+### Prism Stem Splitter
 
-Tool for separating audio tracks into individual stems (vocals, instruments, drums, bass) for music production and analysis workflows.
+Production-grade web application for separating audio tracks into 6 isolated stems (vocals, drums, bass, guitar, piano, other) using Meta's HTDemucs model.
 
-- Built using Python-based audio processing pipelines
-- *(More details coming soon)*
+- Engineered an audio separation pipeline using HTDemucs achieving high Signal-to-Distortion Ratio (SDR), with FFmpeg preprocessing to normalise and convert arbitrary audio formats into standardised model inputs
+- Architected an asynchronous FastAPI REST API handling file uploads, background job processing, and real-time progress polling — returning a job ID immediately so the frontend can track long-running inference tasks
+- Implemented dynamic hardware acceleration detection across NVIDIA CUDA, Apple MPS, and CPU backends, making the application hardware-agnostic out of the box
 
 ---
 
@@ -61,6 +62,7 @@ Tool for separating audio tracks into individual stems (vocals, instruments, dru
 ### AI / ML Systems
 
 ![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=3776AB)
+![PyTorch](https://img.shields.io/badge/PyTorch-000000?style=for-the-badge&logo=pytorch&logoColor=EE4C2C)
 ![Scikit-learn](https://img.shields.io/badge/scikit--learn-000000?style=for-the-badge&logo=scikitlearn&logoColor=F7931E)
 ![NumPy](https://img.shields.io/badge/NumPy-000000?style=for-the-badge&logo=numpy&logoColor=013243)
 ![SciPy](https://img.shields.io/badge/SciPy-000000?style=for-the-badge&logo=scipy&logoColor=8CAAE6)
@@ -72,8 +74,9 @@ Tool for separating audio tracks into individual stems (vocals, instruments, dru
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-000000?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4)
 ![Figma](https://img.shields.io/badge/Figma-000000?style=for-the-badge&logo=figma&logoColor=F24E1E)
 
-### Backend & Data
+### Backend & APIs
 
+![FastAPI](https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=009688)
 ![n8n](https://img.shields.io/badge/n8n-000000?style=for-the-badge&logo=n8n&logoColor=EA4B71)
 ![Supabase](https://img.shields.io/badge/Supabase-000000?style=for-the-badge&logo=supabase&logoColor=3FCF8E)
 ![MongoDB](https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=47A248)
@@ -82,32 +85,3 @@ Tool for separating audio tracks into individual stems (vocals, instruments, dru
 ### Languages
 
 ![Java](https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=openjdk&logoColor=437291)
-![C](https://img.shields.io/badge/C-000000?style=for-the-badge&logo=c&logoColor=A8B9CC)
-
----
-
-## Experience
-
-**Head of Operations — R13 Labs India Pvt Ltd** *(Sept 2025 – Present)*
-
-- First operations hire at a 12-person EdTech startup; designed operational infrastructure spanning communications, project management, CRM, finance visibility, and HR onboarding
-- Co-developed a 26-week company-wide Gantt roadmap spanning Technical, Marketing, Operations, and Finance workstreams
-
-**Software Engineer Intern — TechnoCit Software Solutions** *(Jun 2025 – Oct 2025)*
-
-- Developed an agentic banking chatbot and multi-country web scraping systems using n8n
-- Engineered RAG pipelines using vector embeddings and semantic similarity search
-
----
-
-## Achievements
-
-- MIF Finalist — Mookerji Innovation Fund
-- AWS & GCP Cloud Credits Recipient
-- CorporateLiveWire Innovation & Excellence Award 2026 (UK)
-
----
-
-## Connect
-
-LinkedIn: (https://www.linkedin.com/in/zayaanalimk/) · Email: zayalimk@gmail.com · Dubai, UAE
